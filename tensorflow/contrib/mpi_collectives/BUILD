@@ -53,7 +53,6 @@ tf_custom_op_library(
         ":mpi_defines",
         ":mpi_message_proto_cc",
         "//third_party/mpi",
-        "//tensorflow/stream_executor",
     ],
 )
 
